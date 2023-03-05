@@ -1,0 +1,25 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "data-fns": "^0.1.8",
+    "date-fns": "^2.29.3",
+    "docx": "^7.8.2",
+    "events": "^3.3.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pdf-lib": "^1.17.1",
+    "uuid": "^9.0.0"
+  }
+}

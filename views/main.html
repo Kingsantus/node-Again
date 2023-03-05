@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>PDF to DOCX/DOC and DOCX/DOC to PDF Converter</title>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <header>
+      <h1>PDF to DOCX/DOC and DOCX/DOC to PDF Converter</h1>
+    </header>
+
+    <form id="uploadForm">
+      <label for="file">Choose a file:</label>
+      <input type="file" id="file" name="file">
+
+      <input type="submit" value="Convert">
+    </form>
+
+    <div class="output">
+      <p id="message"></p>
+      <a id="downloadLink" href="#" style="display:none;"></a>
+    </div>
+    <script src="/views/index.js"></script>
+    <script src="/views/main.js"></script>
+  </body>
+</html>

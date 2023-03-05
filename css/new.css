@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  h1 {
+    font-size: 8em;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 2em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  a {
+    color: #555;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #222;
+  }
+  
